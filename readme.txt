@@ -1,0 +1,38 @@
+=== GoodBarber ===
+Contributors: dphiffer, goodbarber
+Donate link: http://www.goodbarber.com
+Tags: native apps, iOS, Android, JSON, GoodBarber, apps
+Requires at least: 2.8
+Tested up to: 3.1.4
+Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+GoodBarber plugin allows you to retrieve WordPress content in order to create a native app for iOS and/or Android
+
+== Description ==
+
+GoodBarber plugin is a fork of JSON API created by dphiffer.
+GoodBarber plugin creates a communication interface between your WordPress and your GoodBarber account. 
+It is used to retrieve content from your WordPress so that you can sync it with your native app created with GoodBarber.
+
+== Installation ==
+
+1. Upload the gb-json-api folder to the /wp-content/plugins/ directory or install directly through the plugin installer.
+1. Activate the plugin through the 'Plugins' menu in WordPress or by using the link provided by the plugin installer
+
+== Frequently asked questions ==
+
+= A question that someone might have =
+
+An answer to that question.
+
+== Screenshots ==
+
+
+
+== Changelog ==
+
+
+
+== Upgrade notice ==
