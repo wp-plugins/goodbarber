@@ -161,10 +161,12 @@ class GB_JSON_API_Post {
     
   function set_content_value() {
     global $gb_json_api;
+    global $more;
     if ($gb_json_api->include_value('content')) {
+      $more = 1;
       $content = get_the_content($gb_json_api->query->read_more);
       $content = apply_filters('the_content', $content);
-      $content = str_replace(']]>', ']]&gt;', $content);
+      $content = str_replace(']]>', ']]>', $content);
       $this->content = $content;
     } else {
       unset($this->content);

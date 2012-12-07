@@ -1,7 +1,7 @@
 === GoodBarber ===
 Contributors: dphiffer, goodbarber
 Donate link: http://www.goodbarber.com
-Tags: native apps, iOS, Android, JSON, GoodBarber, apps
+Tags: native apps, iOS, Android, JSON, GoodBarber, apps, iPhone, beautiful apps, duoapps, wmaker, native
 Requires at least: 2.8
 Tested up to: 3.1.4
 Stable tag: trunk
@@ -33,6 +33,6 @@ An answer to that question.
 
 == Changelog ==
 
-
+Version 1.0.1 : read_more support
 
 == Upgrade notice ==
