@@ -135,9 +135,10 @@ class GB_JSON_API_Query {
   function get_legacy_controller($json) {
     global $gb_json_api;
 	$is_secure_mode_enabled = get_option('is_secure_mode_enabled', '');
-	if($is_secure_mode_enabled == 'True'){
+	if( ($is_secure_mode_enabled == 'True') && ($json != 'submit_comment') ){
 		$ip = get_ip();
-		if (!(($ip > 213251158192) && ($ip < 213251158217) && ($ip > 9423134224) && ($ip < 9423134249 )) ){
+		$ip = str_replace(".", "", $ip);
+		if (!(($ip > 213251158192) && ($ip < 213251158217) || ($ip > 9423134224) && ($ip < 9423134249 )) ){
 		 $gb_json_api->error("Sorry, you're not allowed to access this content.");
 		}
 	}
