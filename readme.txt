@@ -34,5 +34,5 @@ An answer to that question.
 == Changelog ==
 
 Version 1.0.1 : read_more support
-
+Version 1.0.2 : Bug fix on IP secure mode
 == Upgrade notice ==
