@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: GoodBarber Api
-Plugin URI: http://fr.goodbarber.com/
+Plugin URI: http://www.goodbarber.com/
 Description: A JSON API fork for WordPress made by goodbarber
-Version: 1.0.2
+Version: 1.0.3
 Original Author: Dan Phiffer
 Original Author URI: http://phiffer.org/
 Author: GoodBarber
-Author URI: http://fr.goodbarber.com/
+Author URI: http://www.goodbarber.com/
 */
 
 $dir = gb_json_api_dir();

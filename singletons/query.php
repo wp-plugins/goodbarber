@@ -138,7 +138,7 @@ class GB_JSON_API_Query {
 	if( ($is_secure_mode_enabled == 'True') && ($json != 'submit_comment') ){
 		$ip = get_ip();
 		$ip = str_replace(".", "", $ip);
-		if (!(($ip > 213251158192) && ($ip < 213251158217) || ($ip > 9423134224) && ($ip < 9423134249 )) ){
+		if (!(($ip >= 213251158192) && ($ip <= 213251158217) || ($ip >= 9423134224) && ($ip <= 9423134249 )) ){
 		 $gb_json_api->error("Sorry, you're not allowed to access this content.");
 		}
 	}
