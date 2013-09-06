@@ -37,5 +37,6 @@ Version 1.0.1 : read_more support
 Version 1.0.2 : Bug fix on IP secure mode
 Version 1.0.3 : Extending ip range in secure mode
 Version 1.0.4 : Handling 3.6 engine 
+Version 1.0.5 : Adding multipage posts support
 == Upgrade notice ==
 

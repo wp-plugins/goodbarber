@@ -162,9 +162,30 @@ class GB_JSON_API_Post {
   function set_content_value() {
     global $gb_json_api;
     global $more;
+    global $page;
+    global $numpages;
+    global $multipage;
+
     if ($gb_json_api->include_value('content')) {
       $more = 1;
-      $content = get_the_content($gb_json_api->query->read_more);
+      /**/
+      $content = "" ;
+      $temp_page = $page;
+      if ( $multipage )
+      {
+          for ( $i = 1; $i <= $numpages; $i++ )
+          {
+                $page = $i;
+                $content .= get_the_content($gb_json_api->query->read_more);
+          }
+      }
+      else
+      {
+          $content = get_the_content($gb_json_api->query->read_more);
+      }
+      $page = $temp_page;	
+      /**/
+      //$content = get_the_content($gb_json_api->query->read_more);
       $content = apply_filters('the_content', $content);
       $content = str_replace(']]>', ']]>', $content);
       $this->content = $content;
