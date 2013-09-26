@@ -3,7 +3,7 @@ Contributors: dphiffer, goodbarber
 Donate link: http://www.goodbarber.com
 Tags: native apps, iOS, Android, JSON, GoodBarber, apps, iPhone, beautiful apps, duoapps, wmaker, native
 Requires at least: 2.8
-Tested up to: 3.6
+Tested up to: 3.6.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -38,5 +38,6 @@ Version 1.0.2 : Bug fix on IP secure mode
 Version 1.0.3 : Extending ip range in secure mode
 Version 1.0.4 : Handling 3.6 engine 
 Version 1.0.5 : Adding multipage posts support
+Version 1.0.6 : Handling Error in getItemByUrl
 == Upgrade notice ==
 
