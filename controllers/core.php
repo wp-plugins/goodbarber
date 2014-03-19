@@ -105,7 +105,7 @@ class GB_JSON_API_Core_Controller {
       if (!$id) {
         $id = $page_id;
       }
-      $posts = $json_api->introspector->get_posts(array(
+      $posts = $gb_json_api->introspector->get_posts(array(
         'page_id' => $id
       ));
     } else if ($slug || $page_slug) {

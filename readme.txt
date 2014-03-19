@@ -40,5 +40,6 @@ Version 1.0.4 : Handling 3.6 engine
 Version 1.0.5 : Adding multipage posts support
 Version 1.0.6 : Handling Error in getItemByUrl
 Version 1.0.7 : Adding 3.8 compliance
+Version 1.0.8 : Bug fix on handling pages
 == Upgrade notice ==
 
