@@ -123,7 +123,7 @@ class GB_JSON_API_Post {
     
     return $this->id;
   }
-  
+ 
   function import_wp_object($wp_post) {
     global $gb_json_api, $post;
     $date_format = $gb_json_api->query->date_format;
