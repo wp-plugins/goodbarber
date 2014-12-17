@@ -1,6 +1,7 @@
 <?php
 
 class GB_JSON_API_Post {
+
   
   // Note:
   //   JSON_API_Post objects must be instantiated within The Loop.

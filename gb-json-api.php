@@ -7,7 +7,7 @@ Version: 1.0.9
 Original Author: Dan Phiffer
 Original Author URI: http://phiffer.org/
 Author: GoodBarber
-Author URI: http://www.goodbarber.com/
+Author URI: http://www.goodbarber.com/ 
 */
 
 $dir = gb_json_api_dir();
