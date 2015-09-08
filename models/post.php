@@ -274,6 +274,7 @@ class GB_JSON_API_Post {
   
   function set_custom_fields_value() {
     global $gb_json_api;
+      if ( $gb_json_api->query->ignore_custom_fields == "true" ) return;
       $keys = $gb_json_api->introspector->get_custom_fields();
       $wp_custom_fields = get_post_custom($this->id);
       $this->custom_fields = new stdClass();

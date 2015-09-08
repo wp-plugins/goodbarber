@@ -3,7 +3,7 @@
 Plugin Name: GoodBarber Api
 Plugin URI: http://www.goodbarber.com/
 Description: A JSON API fork for WordPress made by goodbarber
-Version: 1.0.9
+Version: 1.0.10
 Original Author: Dan Phiffer
 Original Author URI: http://phiffer.org/
 Author: GoodBarber
